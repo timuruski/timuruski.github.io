@@ -1,17 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Timothy Uruski, Programmer</title>
-		<style>
-			body { background: white; }
-		</style>
-	</head>
-	<body>
-		<div id="container">
-			<div id="bio">
-				<h1>Timothy Uruski</h1>
-				<p>When I finished high school, I wanted to be a web designer. In college I discovered that most of my class had the same plans, so I decided to focus on programming instead. The course I was taking offered little in the was of programming instruction, so I bought a book about Flash programming and began reading. From Flash I was able to learn PHP and JavaScript.</p>
-			</div>
-		</div>
-	</body>
-</html>
+---
+layout: default
+---
+
+<div id="bio">
+	<h1>Timothy Uruski</h1>
+	<p>When I finished high school, I wanted to be a web designer. In college I discovered that most of my class had the same plans, so I decided to focus on programming instead. The course I was taking offered little in the was of programming instruction, so I bought a book about Flash programming and began reading. From Flash I was able to learn PHP and JavaScript.</p>
+</div>
+
+<ul class="posts">
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>

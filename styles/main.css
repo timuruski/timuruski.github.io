@@ -6,9 +6,9 @@ body {
 	color: rgb(63, 64, 62);
 }
 #container { margin: 0 auto; padding: 0 20px; max-width: 70ex; min-width: 35ex; }
-h1 { font-family: 'sommet-1', 'sommet-2', 'Impact', sans-serif; font-size: 6em; font-weight: 900; margin: 1.5em 0 0.5em; letter-spacing: 0.02em; line-height: 0.85em; }
-h2 { font-family: 'sommet-1', 'sommet-2', 'Impact', sans-serif; font-size: 3em; font-weight: 700; margin: 2.0em 0 0.5em; line-height: 0.85em; text-transform: lowercase; }
-p { font-family: 'gesta-1', 'gesta-2', sans-serif; font-size: 1.0em; font-weight: 200; margin: 0 0 1.5em; text-align: left; }
+h1 { font-family: 'sommet-1', 'sommet-2', 'Impact', sans-serif; font-size: 3.65em; font-weight: 900; margin: 1.5em 0 0.5em; letter-spacing: 0.03em; line-height: 0.85em; }
+h2 { font-family: 'sommet-1', 'sommet-2', 'Impact', sans-serif; font-size: 2.25em; font-weight: 700; margin: 2.0em 0 0.5em; letter-spacing: 0.02em; line-height: 0.85em; }
+p { font-family: 'gesta-1', 'gesta-2', sans-serif; font-size: 1.0em; font-weight: 200; margin: 0 0.5em 1.5em 0; text-align: left; }
 
 /* Colors */
 h1,h2 { color: rgb(105, 107, 104); }
